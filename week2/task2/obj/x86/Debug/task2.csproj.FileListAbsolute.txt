@@ -1,0 +1,6 @@
+/Users/ukadan.ali/Desktop/PP1/week2/task2/bin/Debug/task2.exe
+/Users/ukadan.ali/Desktop/PP1/week2/task2/bin/Debug/task2.pdb
+/Users/ukadan.ali/Desktop/PP1/week2/task2/obj/x86/Debug/task2.csprojAssemblyReference.cache
+/Users/ukadan.ali/Desktop/PP1/week2/task2/obj/x86/Debug/task2.csproj.CoreCompileInputs.cache
+/Users/ukadan.ali/Desktop/PP1/week2/task2/obj/x86/Debug/task2.exe
+/Users/ukadan.ali/Desktop/PP1/week2/task2/obj/x86/Debug/task2.pdb
