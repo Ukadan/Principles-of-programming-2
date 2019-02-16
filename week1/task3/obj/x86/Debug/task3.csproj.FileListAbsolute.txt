@@ -4,3 +4,9 @@
 /Users/ukadan.ali/Desktop/PP1/week1/task3/obj/x86/Debug/task3.csproj.CoreCompileInputs.cache
 /Users/ukadan.ali/Desktop/PP1/week1/task3/obj/x86/Debug/task3.exe
 /Users/ukadan.ali/Desktop/PP1/week1/task3/obj/x86/Debug/task3.pdb
+/Users/ukadan.ali/Desktop/Principles.of.Programming.2/week1/task3/obj/x86/Debug/task3.csprojAssemblyReference.cache
+/Users/ukadan.ali/Desktop/Principles.of.Programming.2/week1/task3/obj/x86/Debug/task3.csproj.CoreCompileInputs.cache
+/Users/ukadan.ali/Desktop/Principles.of.Programming.2/week1/task3/obj/x86/Debug/task3.exe
+/Users/ukadan.ali/Desktop/Principles.of.Programming.2/week1/task3/obj/x86/Debug/task3.pdb
+/Users/ukadan.ali/Desktop/Principles.of.Programming.2/week1/task3/bin/Debug/task3.exe
+/Users/ukadan.ali/Desktop/Principles.of.Programming.2/week1/task3/bin/Debug/task3.pdb

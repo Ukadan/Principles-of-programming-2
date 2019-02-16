@@ -1,18 +1,39 @@
 ﻿using System;
+using System.IO;
 
 namespace task3
 {
-    class MainClass
+    class Program
     {
-        public static void Main(string[] args)
+        public static int[] Double(int[] a)                                     //создаем функцию Double
         {
-            int n = Convert.ToInt32(Console.ReadLine());                                            //получить количество чисел
-            int[] a = Array.ConvertAll<string, int>(Console.ReadLine().Split(), int.Parse);         //создадим массив 
-            for (int i = 0; i < a.Length; i++)                                                      //вывод массив
+            int[] x = new int[a.Length * 2];                                    //даем для массива x двойной размер чем массив а
+            for (int i = 0; i < a.Length; i++)
             {
-                Console.Write(a[i] + " " + a[i] + " ");                                             //дабл вывод
+                x[2 * i] = a[i];                                                //делаем double чисел и кидаем числа в соседние позиций
+                x[2 * i + 1] = a[i];
             }
 
+            return x;
         }
+        static void Main(string[] args)
+        {
+          
+            int n = int.Parse(Console.ReadLine());                              //читаем длинну массива
+            string[] s = Console.ReadLine().Split();                            //читаем числа
+            int[] a = new int[n];                                               //создаем массив
+            for (int i = 0; i < n; i++)                                         //создали массив для того чтобы перекинуть все числа с s в массив
+            {
+                a[i] = int.Parse(s[i]);                                         //кидаем в массив
+            }
+
+            int[] x = Double(a);                                                //кидаем в массив х все значение с функций Double
+                        for (int i = 0; i < x.Length; i++)
+            {
+                Console.Write(x[i] + " ");
+            }
+        }
+       
+       
     }
 }
